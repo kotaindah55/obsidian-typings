@@ -1,6 +1,7 @@
 import type { Plugin } from 'obsidian';
 
 /**
+ * @todo Documentation incomplete
  * @public
  * @unofficial
  */

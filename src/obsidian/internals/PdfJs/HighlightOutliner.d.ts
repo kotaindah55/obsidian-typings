@@ -1,12 +1,14 @@
 import type { HighlightOutline } from './HighlightOutline.d.ts';
 
 /**
+ * @todo Documentation incomplete
  * @public
  * @unofficial
  */
 export declare class HighlightOutliner {
     /**
      * Construct an outliner.
+     *
      * @param boxes - An array of axis-aligned rectangles.
      * @param borderWidth - The width of the border of the boxes, it.
      *   allows to make the boxes bigger (or smaller).

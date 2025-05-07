@@ -14,6 +14,7 @@ import type { MetadataTypeManagerTypesRecord } from './MetadataTypeManagerTypesR
 import type { TypeInfo } from './TypeInfo.d.ts';
 
 /**
+ * @todo Documentation incomplete
  * @public
  * @unofficial
  */

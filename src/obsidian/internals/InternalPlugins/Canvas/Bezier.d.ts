@@ -1,6 +1,7 @@
 import type { Pointer } from '../../Pointer.d.ts';
 
 /**
+ * @todo Documentation incomplete
  * @public
  * @unofficial
  */

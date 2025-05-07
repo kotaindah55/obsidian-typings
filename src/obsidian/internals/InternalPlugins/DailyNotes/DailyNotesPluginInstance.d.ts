@@ -8,6 +8,7 @@ import type { DailyNotesOptions } from './DailyNotesOptions.d.ts';
 import type { DailyNotesPlugin } from './DailyNotesPlugin.d.ts';
 
 /**
+ * @todo Documentation incomplete
  * @public
  * @unofficial
  */

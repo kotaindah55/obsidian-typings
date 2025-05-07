@@ -3,6 +3,7 @@ import type { InternalPluginInstance } from '../InternalPluginInstance.d.ts';
 import type { OutlinePlugin } from './OutlinePlugin.d.ts';
 
 /**
+ * @todo Documentation incomplete
  * @public
  * @unofficial
  */

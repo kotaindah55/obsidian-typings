@@ -1,6 +1,7 @@
 import type { FileEntry } from '../FileEntry.d.ts';
 
 /**
+ * @todo Documentation incomplete
  * @public
  * @unofficial
  */

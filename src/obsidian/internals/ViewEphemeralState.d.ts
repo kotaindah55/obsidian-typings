@@ -1,6 +1,7 @@
 import type { EditorRangeOrCaret } from 'obsidian';
 
 /**
+ * @todo Documentation incomplete
  * @public
  * @unofficial
  */

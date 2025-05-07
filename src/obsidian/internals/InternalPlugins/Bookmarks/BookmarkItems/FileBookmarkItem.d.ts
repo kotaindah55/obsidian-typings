@@ -1,6 +1,7 @@
 import type { BookmarkItem } from './BookmarkItem.d.ts';
 
 /**
+ * @todo Documentation incomplete
  * @public
  * @unofficial
  */

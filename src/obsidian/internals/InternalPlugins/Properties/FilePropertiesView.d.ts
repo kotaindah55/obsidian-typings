@@ -2,8 +2,8 @@ import type { TFile } from 'obsidian';
 import type { ViewType } from '../../../implementations/Constants/ViewType.d.ts';
 import type { InfoFileView } from '../../Views/InfoFileView.d.ts';
 
-/** @todo Documentation incomplete */
 /**
+ * @todo Documentation incomplete
  * @public
  * @unofficial
  */
@@ -20,6 +20,7 @@ export interface FilePropertiesView extends InfoFileView {
 
     /**
      * Checks the file is an markdown file.
+     *
      * @param file - The file to check.
      */
     isSupportedFile(file: TFile): boolean;
@@ -32,6 +33,7 @@ export interface FilePropertiesView extends InfoFileView {
 
     /**
      * Reads the file if it is supported.
+     *
      * @param file - The file to read.
      */
     readSupportedFile(file: TFile): Promise<unknown>;

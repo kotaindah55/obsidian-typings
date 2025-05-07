@@ -4,8 +4,8 @@ import type { InfoFileView } from '../../Views/InfoFileView.d.ts';
 import type { GraphEngine } from './GraphEngine.d.ts';
 import type { GraphRenderer } from './GraphRenderer.d.ts';
 
-/** @todo Documentation incomplete */
 /**
+ * @todo Documentation incomplete
  * @public
  * @unofficial
  */
@@ -23,6 +23,7 @@ export interface LocalGraphView extends InfoFileView {
 
     /**
      * Requests a update if the changed file is the opened file.
+     *
      * @param file - The changed file.
      */
     onFileChanged(file: TFile): void;

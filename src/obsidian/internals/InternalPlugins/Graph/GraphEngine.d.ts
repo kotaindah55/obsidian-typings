@@ -11,6 +11,7 @@ import type { GraphFilterOptions } from './Options/GraphFilterOptions.d.ts';
 import type { GraphForceOptions } from './Options/GraphForceOptions.d.ts';
 
 /**
+ * @todo Documentation incomplete
  * @public
  * @unofficial
  */
@@ -78,6 +79,7 @@ export interface GraphEngine {
 
     /**
      * Sets the engine options.
+     *
      * @param options - New options. Undefined elements will not be considered.
      */
     setOptions(options: GraphPluginInstanceOptions | undefined): void;

@@ -1,8 +1,8 @@
 import type { View } from 'obsidian';
 import type { ViewType } from '../../../implementations/Constants/ViewType.d.ts';
 
-/** @todo Documentation incomplete */
 /**
+ * @todo Documentation incomplete
  * @public
  * @unofficial
  */
@@ -68,6 +68,7 @@ export interface SearchView extends View {
 
     /**
      * Sets the value of the search element.
+     *
      * @param value - The search string.
      */
     setQuery(value: string): void;

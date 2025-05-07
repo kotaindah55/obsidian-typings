@@ -1,6 +1,7 @@
 import type { EditorRangeEx } from './EditorRangeEx.d.ts';
 
 /**
+ * @todo Documentation incomplete
  * @public
  * @unofficial
  */

@@ -1,14 +1,15 @@
 import type { ItemView } from 'obsidian';
 import type { ViewType } from '../../implementations/Constants/ViewType.d.ts';
 
-/** @todo Documentation incomplete */
 /**
+ * @todo Documentation incomplete
  * @public
  * @unofficial
  */
 export interface ReleaseNotesView extends ItemView {
     /**
      * Get the release notes from GitHub.
+     *
      * @param version - The version of the release notes.
      */
     fetchReleaseNotes(version: string): Promise<unknown>;

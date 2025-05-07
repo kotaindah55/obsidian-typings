@@ -3,6 +3,7 @@ import type { InternalPluginInstance } from '../InternalPluginInstance.d.ts';
 import type { PublishPlugin } from './PublishPlugin.d.ts';
 
 /**
+ * @todo Documentation incomplete
  * @public
  * @unofficial
  */

@@ -1,6 +1,7 @@
 import type { PropertyWidget } from './PropertyWidget.d.ts';
 
 /**
+ * @todo Documentation incomplete
  * @public
  * @unofficial
  */

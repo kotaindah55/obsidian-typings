@@ -10,8 +10,8 @@ import type { CustomCSSUpdatesRecord } from './CustomCSSUpdatesRecord.d.ts';
 import type { DownloadLegacyThemeOptions } from './DownloadLegacyThemeOptions.d.ts';
 import type { InstallThemeOptions } from './InstallThemeOptions.d.ts';
 
-/** @todo Documentation incomplete */
 /**
+ * @todo Documentation incomplete
  * @public
  * @unofficial
  */

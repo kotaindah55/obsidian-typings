@@ -1,6 +1,7 @@
 import type { EditorSuggest } from 'obsidian';
 
 /**
+ * @todo Documentation incomplete
  * @public
  * @unofficial
  */

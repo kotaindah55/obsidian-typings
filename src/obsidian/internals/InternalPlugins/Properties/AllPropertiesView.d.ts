@@ -1,8 +1,8 @@
 import type { ItemView } from 'obsidian';
 import type { ViewType } from '../../../implementations/Constants/ViewType.d.ts';
 
-/** @todo Documentation incomplete */
 /**
+ * @todo Documentation incomplete
  * @public
  * @unofficial
  */
@@ -32,12 +32,14 @@ export interface AllPropertiesView extends ItemView {
 
     /**
      * Select the item in focus if pressed 'Enter'.
+     *
      * @param event - The event triggered this function.
      */
     onKeyEnterInFocus(event: KeyboardEvent): void;
 
     /**
      * Called when 'Enter' is pressed while rename. Accepts the rename.
+     *
      * @param event - The event triggered this function.
      */
     onKeyEnterInRename(event: KeyboardEvent): void;
@@ -52,6 +54,7 @@ export interface AllPropertiesView extends ItemView {
 
     /**
      * Updates the sort order and sort by it.
+     *
      * @param order - The sort order.
      */
     setSortOrder(order: unknown): void;

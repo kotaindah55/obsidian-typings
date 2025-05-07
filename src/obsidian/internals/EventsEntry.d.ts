@@ -1,6 +1,7 @@
 import type { Events } from 'obsidian';
 
 /**
+ * @todo Documentation incomplete
  * @public
  * @unofficial
  */

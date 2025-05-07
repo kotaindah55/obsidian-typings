@@ -3,6 +3,7 @@ import type { InternalPluginInstance } from '../InternalPluginInstance.d.ts';
 import type { WorkspacesPlugin } from './WorkspacesPlugin.d.ts';
 
 /**
+ * @todo Documentation incomplete
  * @public
  * @unofficial
  */

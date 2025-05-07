@@ -1,6 +1,7 @@
 import type { ContentPosition } from './ContentPosition.d.ts';
 
 /**
+ * @todo Documentation incomplete
  * @public
  * @unofficial
  */

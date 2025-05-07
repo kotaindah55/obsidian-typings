@@ -6,6 +6,7 @@ import type { CanvasViewCanvasEdgeLink } from './CanvasViewCanvasEdgeLink.d.ts';
 import type { CanvasViewCanvasEdgePath } from './CanvasViewCanvasEdgePath.d.ts';
 
 /**
+ * @todo Documentation incomplete
  * @public
  * @unofficial
  */

@@ -1,6 +1,7 @@
 import type { ChangeDesc } from '@codemirror/state';
 
 /**
+ * @todo Documentation incomplete
  * @public
  * @unofficial
  */

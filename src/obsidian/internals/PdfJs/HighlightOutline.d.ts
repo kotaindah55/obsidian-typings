@@ -1,6 +1,7 @@
 import type { Outline } from './Outline.js';
 
 /**
+ * @todo Documentation incomplete
  * @public
  * @unofficial
  */

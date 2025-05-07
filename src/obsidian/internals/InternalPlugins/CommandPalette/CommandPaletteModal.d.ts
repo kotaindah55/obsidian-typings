@@ -5,6 +5,7 @@ import type {
 import type { CommandPalettePluginInstance } from './CommandPalettePluginInstance.d.ts';
 
 /**
+ * @todo Documentation incomplete
  * @public
  * @unofficial
  */

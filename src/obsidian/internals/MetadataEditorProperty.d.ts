@@ -8,6 +8,7 @@ import type { MetadataWidget } from './MetadataWidget.d.ts';
 import type { PropertyEntryData } from './PropertyEntryData.d.ts';
 
 /**
+ * @todo Documentation incomplete
  * @public
  * @unofficial
  */
