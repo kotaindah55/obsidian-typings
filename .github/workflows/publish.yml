@@ -26,33 +26,3 @@ jobs:
                 run: |
                     bun install --frozen-lockfile
                     bun run build
-
-            -   name: Create NPM Release
-                if: ${{ !contains(github.ref_name, 'beta') }}
-                run: npm publish
-                env:
-                    NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-
-            -   name: Create Beta NPM Release
-                if: ${{ contains(github.ref_name, 'beta') }}
-                run: npm publish --tag beta
-                env:
-                    NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-
-            -   name: Create Archive
-                run: |
-                    mkdir build
-                    cp -r dist build
-                    cp README.md LICENSE CHANGELOG.md package.json build
-                    cd build
-                    zip -r obsidian-typings-${{ github.ref_name }}.zip .
-                    cd ..
-
-            -   name: Create Release
-                uses: softprops/action-gh-release@v2
-                with:
-                    files: | 
-                        build/obsidian-typings-${{ github.ref_name }}.zip
-                        dist/obsidian-typings.api.json
-                    token: ${{ secrets.GITHUB_TOKEN }}
-                    prerelease: ${{ contains(github.ref_name, 'beta') }}
