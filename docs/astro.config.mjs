@@ -18,9 +18,9 @@ export default defineConfig({
                 baseUrl: 'https://github.com/Fevol/obsidian-typings/tree/main/docs/'
             },
             favicon: './favicon.png',
-            social: {
-                github: 'https://github.com/fevol/obsidian-typings'
-            },
+            social: [
+                {icon: "github", label: "Github", href: 'https://github.com/fevol/obsidian-typings'}
+            ],
             sidebar: [
                 {
                     label: 'Start Here',
