@@ -1,11 +1,15 @@
 import type { ParseContext } from '@codemirror/language';
-import type { EditorState, Transaction } from '@codemirror/state';
+import type {
+    EditorState,
+    Transaction
+} from '@codemirror/state';
 import type { Tree } from '@lezer/common';
 
 /**
  * @see https://github.com/codemirror/language/blob/main/src/language.ts
  * @todo Documentation incomplete.
  * @unofficial
+ * @public
  */
 export interface LanguageState {
     /**
@@ -19,15 +23,6 @@ export interface LanguageState {
      */
     tree: Tree;
 
-    /**
-     * @todo Documentation incomplete.
-     */
+    /** @todo Documentation incomplete. */
     apply(tr: Transaction): LanguageState;
-}
-
-export namespace LanguageState {
-    /**
-     * @todo Documentation incomplete.
-     */
-    function init(state: EditorState): LanguageState;
 }
