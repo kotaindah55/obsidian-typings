@@ -1,7 +1,7 @@
 import { InternalPluginName } from './InternalPluginName.ts';
 
 /**
- * @todo Documentation incomplete
+ * @todo Documentation incomplete.
  *
  * @public
  * @unofficial
@@ -25,6 +25,7 @@ export const ViewType = {
     ReleaseNotes: 'release-notes',
     Search: 'search',
     Sync: 'sync',
+    Table: 'table',
     Tag: 'tag',
     Video: 'video',
     Webviewer: 'webviewer',

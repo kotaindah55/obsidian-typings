@@ -1,5 +1,5 @@
 /**
- * @todo Documentation incomplete
+ * @todo Documentation incomplete.
  *
  * @public
  * @unofficial
@@ -13,6 +13,10 @@ export const InternalPluginName = {
      * Plugin name in UI: Backlinks.
      */
     Backlink: 'backlink',
+    /**
+     * Plugin name in UI: Bases.
+     */
+    Bases: 'bases',
     /**
      * Plugin name in UI: Bookmarks.
      */
@@ -41,6 +45,10 @@ export const InternalPluginName = {
      * Plugin name in UI: File recovery.
      */
     FileRecovery: 'file-recovery',
+    /**
+     * Plugin name in UI: Footnotes.
+     */
+    Footnotes: 'footnotes',
     /**
      * Plugin name in UI: Search.
      */
